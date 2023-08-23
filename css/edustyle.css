@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+    position: fixed;
+    width:100%;
+    height:80px;
+    background-color: dimgray;
+    flex-wrap: wrap;
+}
+.ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px 0px;
+    flex-wrap: wrap;
+}
+a{
+    color: aliceblue;
+}
+.img{
+    background-image: url(../img/OIP.jpg);
+    background-repeat:round;
+    background-size:cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h{
+    background-color:rgb(255,255,255,50%);
+    color: white;
+    border-radius: 2px;
+    text-align: center;
+}
+.about{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 30px;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    gap: 10px 0px;
+}
+.about p{
+width: 90%;
+margin: 0 auto;
+}
+.Services{
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-ar;
+    align-items: center;
+    background-color:coral;
+    font-family: 'Courier New', Courier, monospace;
+    gap: 10px 30px;
+    flex-wrap: wrap;
+    
+}
+
+.ul1{
+    display: inline-block;
+    flex-direction: column;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   flex-wrap: wrap;
+}
+.col{
+  display: flex;
+  justify-content: space-between;
+}
+.specializations{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    font-family: 'Courier New', Courier, monospace;
+    gap: 10px 30px;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+h2{
+    color: black;
+}
+.imgteacher{
+    width: 75px;
+    height: 75px;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    margin: 25px 25px;
+}
+h3{
+    margin: 20px 20px;
+}
+.img3
+{
+    width: 90%;
+    height: 150px;
+}
+.plans-section{
+  margin: 50px 0;
+  flex-wrap: wrap;
+}
+
+.plans-section h1{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.plans{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.plan{
+  width: 300px;
+  background-color:rgb(238, 201, 146) ;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.plan img{
+  width: 100%;
+}
+.plan h2{
+  text-align: center;
+}
+ul{
+  margin-left: 30px;
+}
+.desc{
+  background-color: rgb(248, 248, 96);
+  padding: 10px;
+}
+
+
+.content{
+  padding: 40px 0;
+    width: 100%;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:coral;
+    font-family: 'Courier New', Courier, monospace;
+    gap: 50px 30px;
+    flex-wrap: wrap;
+
+}
+form,.feild{
+  display: flex;
+  flex-direction: column;
+}
+.feild input, .feild textarea{
+  width: 300px;
+}
+form button{
+  padding: 5px 15px;
+  background-color: black;
+  color: white;
+}
+form{
+  gap: 10px;
+  align-items: center;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer{
+  width:100%;
+  height:20px;
+  background-color: dimgray;
+  justify-content:center;
+  align-items: center;
+  flex-wrap:wrap;
+}
+@media (max-width:767px) {
+  .Services ul .col{
+flex-direction: column;
+  }
+}
